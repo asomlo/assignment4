@@ -1,5 +1,21 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 405.22 405.85">
   <title>icon3</title>
+  <defs>
+      <style>
+          @keyframes spin {
+            from {
+                transform: rotateZ(0deg);
+            }
+            to {
+                transform: rotateZ(360deg);
+            }
+          }
+          g {
+            transform-origin: 50% 50%;
+            animation: spin 10s linear forwards infinite;
+          }
+      </style>
+  </defs>
   <g>
     <circle cx="202.5" cy="203.35" r="121.5"/>
     <path d="M459.08,448.78a14.05,14.05,0,0,0,8.4,9.32A112.83,112.83,0,0,1,531,394.75,14.14,14.14,0,0,0,520.79,385l-62.11-15.55a14.28,14.28,0,0,0-17.2,17.77Z" transform="translate(-396 -305.15)"/>

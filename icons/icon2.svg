@@ -1,5 +1,30 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 378 462.59">
   <title>icon2</title>
+  <defs>
+      <style>
+          polygon {
+            opacity: 0;
+            animation: flash 3s linear forwards infinite;
+          }
+          @keyframes flash {
+            5% {
+                opacity: 1;
+            }
+            10% {
+                opacity: 0;
+            }
+            25% {
+                opacity 0;
+            }
+            30% {
+                opacity: 1;
+            }
+            35% {
+                opacity: 0;
+            }
+          }
+      </style>
+  </defs>
   <g>
     <path d="M729,360a62.93,62.93,0,0,0-22.25,4.05C693.39,315,650,279,598.5,279c-51.06,0-94.17,35.39-107.92,83.86a58.5,58.5,0,1,0,17.19,102.31c20.47,29,53.48,47.83,90.73,47.83,35.47,0,67.11-17.08,87.73-43.76A63,63,0,1,0,729,360Z" transform="translate(-414 -279)"/>
     <polygon points="205.92 252 105.16 379.83 158.05 389.6 135.53 462.59 233.24 334.63 183.36 325.12 205.92 252"/>
